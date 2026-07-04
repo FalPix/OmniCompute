@@ -1,4 +1,4 @@
-# OmniCompute 
+# 🖥️ OmniCompute 
 
 OmniCompute is a file-based script interpreter written in Python that parses custom text files to execute mathematical computations, evaluate physics formulas, render regular geometric shapes, and dynamically analyze and plot symbolic algebraic equations.
 
