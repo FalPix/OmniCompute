@@ -74,7 +74,7 @@ class Interpreter:
                 elif "kinetic" in cmd: print(f"Kinetic Energy: {0.5 * nums[0] * nums[1]**2:.2f} J")
                 elif "potential" in cmd: print(f"Potential Energy: {nums[0] * self.constants['g'] * nums[1]:.2f} J")
                 
-                # ... (Keep your existing math, equation, and shape elif statements here)
+                # Keep your existing math, equation, and shape elif statements here
                 elif "equation" in cmd: self.identify_and_plot(cmd.replace("equation", "").strip())
                 elif "add" in cmd: print(f"Sum: {sum(nums)}")
                 elif any(m in cmd for m in self.math_map):
