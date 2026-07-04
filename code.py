@@ -7,7 +7,6 @@ import os
 
 class Interpreter:
     def __init__(self):
-        # Math functions mapping
         self.math_map = {
             "ceil": math.ceil, "floor": math.floor, "trunc": math.trunc, "fabs": math.fabs,
             "factorial": math.factorial, "gcd": math.gcd, "lcm": math.lcm, 
@@ -87,7 +86,6 @@ class Interpreter:
                 elif "square" in cmd: self.draw_shape(4, "Square")
                 elif "triangle" in cmd: self.draw_shape(3, "Triangle")
 
-# Execution
 interp = Interpreter()
 while True:
     path = input("Enter .txt file name: ")
